@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-between p-6">
+    <header className="fixed top-0 left-0 z-50 flex items-center justify-between p-6 w-full bg-transparent">
       <Link href="/">
         <h1 className="text-2xl font-extrabold">OML_Planet</h1>
       </Link>
