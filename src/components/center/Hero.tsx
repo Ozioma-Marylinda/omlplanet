@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Button from "../common/Button";
 import ContactButton from "../common/ContactButton";
 
@@ -15,8 +16,8 @@ export default function Hero() {
           web applications, and software solutions that solve real-world problems.
         </p>
         <div className="flex gap-4 p-6">
-          <ContactButton>Explore Our Work</ContactButton>
-          <Button>Contact Us</Button>
+          <Link href="/work"><ContactButton>Explore Our Work</ContactButton></Link>
+          <Link href="/contact"><Button>Contact Us</Button></Link>
         </div>
       </div>
     </section>
